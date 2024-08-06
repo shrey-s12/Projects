@@ -1,0 +1,36 @@
+body {
+    background-image: url("background.jpeg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+    text-decoration: underline;
+    color: white;
+}
+
+#chessBoard {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    height: 80vh;
+    width: 50vw;
+    margin: auto;
+}
+
+.black,
+.white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.black {
+    background-color: #585858;
+}
+
+.white {
+    background-color: #d2c9c9;
+}

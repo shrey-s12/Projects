@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.chess {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(186, 181, 181);
+    height: 600px;
+    width: 650px;
+}
+
+.chess div {
+    display: flex;
+    flex-direction: row;
+}
+
+.dark,
+.light {
+    height: 75px;
+    width: 81.25px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    background-color: #585858;
+}
+
+.light {
+    background-color: #d2c9c9;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
